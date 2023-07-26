@@ -6,8 +6,6 @@
 к языку.(Может помочь метод translate из модуля string)
 """
 
-
-
 import string
 import sys
 

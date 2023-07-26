@@ -33,3 +33,4 @@ def find_items_for_backpack(max_weight):
 max_weight = 7
 backpack_items = find_items_for_backpack(max_weight)
 print(backpack_items)
+
