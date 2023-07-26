@@ -9,6 +9,8 @@
 
 
 import string
+import sys
+
 
 def count_words(text):
     text = text.translate(str.maketrans("", "", string.punctuation)).lower()
@@ -35,4 +37,3 @@ to enable writing clear programs on both a small and large scale."
 most_common_words = count_words(text)
 for word, count in most_common_words:
     print(word, count)
-
